@@ -1,0 +1,13 @@
+{
+  "name": "unicomtic-2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "check:security": "node scripts/security-check.mjs",
+    "check:browser": "node scripts/browser-check.mjs",
+    "start": "node scripts/server.mjs"
+  }
+}
